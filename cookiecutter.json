@@ -1,0 +1,22 @@
+{
+  "project_name": "your-project-name",
+  "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
+  "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
+  "author": "Your name (used in pyproject.toml)",
+  "email": "Your email (used in pyproject.toml)",
+  "description": "Project description (used in pyproject.toml)",
+  "github_user": "Github user (used in pyproject.toml)",
+  "github_project_name": "{{ cookiecutter.package_name }}",
+  "version": "0.0.1",
+  "homepage": "project home page (used in pyproject.toml)",
+  "license": ["MIT", "Apache-2.0", "GPL-3.0"],
+  "development_status": [
+    "Development Status :: 1 - Planning",
+    "Development Status :: 2 - Pre-Alpha",
+    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
+    "Development Status :: 6 - Mature",
+    "Development Status :: 7 - Inactive"
+  ]
+}
