@@ -17,7 +17,7 @@ At present, it only supports `SQLite` as a database backend. In future releases,
 * [Poetry](https://python-poetry.org/) 
 * [SQLite](https://www.sqlite.org/index.html)
 
-## Getting Started
+# Getting Started
 
 1. Install python3. The [first article]((https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)) in the series linked above should get you started (he recommends `pyenv`). For example, if using `pyenv`, run `pyenv local 3.9.2` (if using python v 3.9.2).
 2. Install `poetry`; see the project homepage or [this article](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/).
