@@ -31,3 +31,7 @@ or by running it via url:
 cookiecutter https://github.com/lhayhurst/modern-python-fastapi-cookiecutter.git
 
 ```
+
+You can then follow the instructions in the generated `README.md` for building your running, running tests, and running the web server.
+
+From a FASTApi perspective, the project ships with toy object model: a `User` class, and a `MicroBlogPost` class with a relationship back to the user. 

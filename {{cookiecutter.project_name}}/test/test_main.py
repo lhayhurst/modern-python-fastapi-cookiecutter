@@ -30,7 +30,7 @@ def setup_test_db(tmp_path):
 
 
 @pytest.fixture(name="client")
-def test_client() -> TestClient:
+def test_client():
     yield TestClient(app)
 
 
