@@ -3,7 +3,8 @@
   "package_name": "{{ cookiecutter.project_name.replace('-', '_') }}",
   "database": [
     "SQLite",
-    "postgresql"
+    "postgresql",
+    "MySQL"
   ],
   "friendly_name": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
   "author": "Your name (used in pyproject.toml)",

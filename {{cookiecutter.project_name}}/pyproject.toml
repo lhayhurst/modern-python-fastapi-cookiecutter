@@ -34,6 +34,8 @@ alembic = "^1.7.5"
 requests = "^2.27.1"
 {% if cookiecutter.database == "postgresql" %}
 psycopg2-binary = "^2.9.3"
+{% elif cookiecutter.database == "MySQL" %}
+mysql-connector-python = "^8.0.28"
 {% endif %}
 
 [tool.poetry.dev-dependencies]

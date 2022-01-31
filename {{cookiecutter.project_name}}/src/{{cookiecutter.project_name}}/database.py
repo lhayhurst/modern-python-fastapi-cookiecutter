@@ -5,6 +5,8 @@ from sqlalchemy.orm import sessionmaker
 DATABASE_URL = "postgresql://user:password@host/db"
 {% elif cookiecutter.database == "SQLite" %}
 DATABASE_URL = "sqlite:///./{{cookiecutter.package_name}}.sqlite"
+{% elif cookiecutter.database == "MySQL" %}
+DATABASE_URL = "mysql+mysqlconnector://user:password@host/db"
 {% endif %}
 
 engine = create_engine(
