@@ -17,7 +17,7 @@ make deps
 This will run `poetry install` and `poetry run nox --install-only`. You can run `make help` to see more make targets. Alternatively, you can just run `poetry`'s CLI; see [the Makefile](Makefile)'s make targets for inspiration. 
 
 4. Run `make test` to run the tests
-5. Run `make alembic-revision` to generate your first database revision
+5. Run `make alembic-revision` to generate your first database revision (note, you may need to change the database user, password, host, and db in `database.py`)
 6. Run `make alembic-migration` to migrate the revision into the database.
 7. Run `./bin/run-server` to start the web server.
 8. Goto [the web server's docs page](http://127.0.0.1:8000/docs)

@@ -10,7 +10,7 @@ This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) project u
 * [pytest](https://docs.pytest.org/en/6.2.x/)
 * [Github actions](https://docs.github.com/en/actions)
 
-At present, it only supports `SQLite` as a database backend. In future releases, it will support both `Postgres` and `mysql`.
+At present, it supports `SQLite` and `Postgresql` as a database backends. In future releases, it will support `mysql`.
 
 # Requirements
 * Python 3.7 or greater

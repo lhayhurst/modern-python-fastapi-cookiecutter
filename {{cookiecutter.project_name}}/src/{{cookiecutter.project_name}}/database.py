@@ -1,7 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
+{% if cookiecutter.database == "postgresql" %}
+DATABASE_URL = "postgresql://user:password@host/db"
+{% elif cookiecutter.database == "SQLite" %}
 DATABASE_URL = "sqlite:///./{{cookiecutter.package_name}}.sqlite"
+{% endif %}
 
 engine = create_engine(
     DATABASE_URL,
